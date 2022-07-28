@@ -31,7 +31,7 @@ line-height: 49px;
     }
     .about_box {max-width: inherit; margin-bottom: 30px;}
     .titlepage h2 {
-      font-size: 27px;
+    font-size: 27px;
     }
    
     .ho_socal {width: 190px;
@@ -68,7 +68,7 @@ ul.conta_icon li a {font-size: 12px;}
     .navigation .navbar-collapse {
         background: #000;
         padding: 20px;
-       margin-top: 58px;
+        margin-top: 58px;
         position: absolute;
         width: 100%;
         margin-right: 20px;
@@ -94,11 +94,10 @@ ul.conta_icon li a {font-size: 12px;}
 }
 
 @media (max-width: 575px) {
-   
     .logo {
         text-align: center !important;
         padding-bottom: 6px;
-       text-align: center;
+        text-align: center;
     }
     .d_none {display: none;}
     .text-bg {margin-bottom: 30px; padding-top: 0;}
@@ -127,7 +126,7 @@ height: 231px;}
     .navigation .navbar-collapse {
         background: #000;
         padding: 20px;
-       margin-top: 50px;
+        margin-top: 50px;
         position: absolute;
         width: 100%;
         margin-right: 20px;

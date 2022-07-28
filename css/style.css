@@ -472,9 +472,9 @@ ul.sign li a i {
 /** banner section **/
 
 .banner_main {
-     padding: 60px 0 0px 0;
-     background: url(../images/banner.jpg);
-     background-size: 100% 100%;
+     padding: 60px 0 100px 0;
+     background: url("https://www.hdrinc.com/sites/default/files/styles/hero/public/2020-10/online-learning-2100-1055_0.jpg?itok=t1iMNDBn./images/banner.jpg");
+     background-size: 100%;
      background-repeat: no-repeat;
 }
 
@@ -484,17 +484,19 @@ ul.sign li a i {
 }
 
 .text-bg h1 {
-     color: #fff;
+     color: rgb(255, 255, 255);
      font-size: 60px;
      line-height: 70px;
      font-weight: bold;
+     text-shadow: #000;
+     
 }
 
 .text-bg span {
      line-height: 28px;
      padding-bottom: 20px;
      display: block;
-     color: #f2db18;
+     color: #ca6c00;
      font-size: 30px;
      font-weight: 600;
 }
@@ -522,7 +524,7 @@ ul.sign li a i {
      position: absolute;
      content: "";
      top: 3px;
-     border-right: #ffff00 solid 1px;
+     border-right: #ca6c00 solid 1px;
      border-width: 90px;
      height: 1px;
      right: -111px;
@@ -534,8 +536,11 @@ ul.sign li a i {
 }
 
 .ban_img figure {
-     margin: 0;
+
+     position: relative;
+     
 }
+
 
 
 /** end banner section **/
@@ -547,7 +552,7 @@ ul.sign li a i {
 
 .titlepage h2 {
      font-size: 36px;
-     color: #154492;
+     color: #ca6c00;
      line-height: 45px;
      font-weight: bold;
      padding: 0;
@@ -604,7 +609,7 @@ ul.sign li a i {
 
 .about {
      padding-top: 90px;
-     background-color: #fff;
+     background-color: rgb(255, 255, 255);
 }
 
 .about .titlepage {
@@ -643,7 +648,7 @@ ul.sign li a i {
 .about_box span {
      font-size: 17px;
      font-weight: 600;
-     color: #f2db18;
+     color: #ca6c00;
      line-height: 30px;
      padding-top: 25px;
      text-transform: uppercase;
@@ -672,7 +677,7 @@ ul.sign li a i {
      margin-top: 7px;
      padding: 8px 0;
      margin-left: 40px;
-     background-color: #f2db18;
+     background-color: #ca6c00;
      max-width: 168px;
      width: 100%;
      display: inline-block;
@@ -732,12 +737,12 @@ ul.sign li a i {
 
 #ho_color:hover.service_box h3 {
      transition: ease-in all 0.5s;
-     color: #f2db18;
-     border-bottom: #f2db18 solid 3px;
+     color: #ca6c00;
+     border-bottom: #ca6c00 solid 3px;
 }
 
 .service .read_more {
-     color: #f2db18 !important;
+     color: #ca6c00 !important;
      margin: 0 auto;
      max-width: 140px;
      width: 100%;
@@ -747,7 +752,7 @@ ul.sign li a i {
 }
 
 .service .read_more::before {
-     border-right: #f2db18 solid 1px;
+     border-right: #ca6c00 solid 1px;
      border-right-width: 1px;
      border-width: 90px;
 }
@@ -814,7 +819,7 @@ ul.sign li a i {
      transform: translate(-50%, -50%);
      -ms-transform: translate(-50%, -50%);
      text-align: center;
-     background-color: #ebd93cc2;
+     background-color: #ca6c00;
      width: 90%;
      height: 92%;
 }
@@ -863,12 +868,12 @@ ul.sign li a i {
 #myCarousel .carousel-control-next:hover,
 #myCarousel .carousel-control-prev:focus,
 #myCarousel .carousel-control-next:focus {
-     background: #f2db18;
+     background: #ca6c00;
      color: #fff;
 }
 
 .portfolio .read_more {
-     color: #f2db18 !important;
+     color: #ca6c00 !important;
      margin: 0 auto;
      max-width: 140px;
      width: 100%;
@@ -878,7 +883,7 @@ ul.sign li a i {
 }
 
 .portfolio .read_more::before {
-     border-right: #f2db18 solid 1px;
+     border-right: #ca6c00 solid 1px;
      border-right-width: 1px;
      border-width: 90px;
 }
@@ -922,18 +927,18 @@ ul.sign li a i {
 }
 
 .business .business_box p {
-     color: #f2db18;
+     color: #ca6c00;
      font-size: 19px;
      font-weight: bold;
 }
 
 .business .read_more {
-     color: #f2db18 !important;
+     color: #ca6c00 !important;
      margin-top: 60px;
 }
 
 .business .read_more::before {
-     border-right: #f2db18 solid 1px;
+     border-right: #ca6c00 solid 1px;
      border-width: 90px;
 }
 
@@ -995,7 +1000,7 @@ ul.social_icont li a {
 }
 
 #ho_bg:hover.team_img img {
-     border: #e5d660 solid 15px;
+     border: #ca6c00 solid 15px;
      background-color: #ddd;
 }
 
@@ -1011,7 +1016,7 @@ ul.social_icont li a {
      bottom: 0;
      left: 0;
      transition: .5s ease;
-     background-color: #082a63de;
+     background-color: #000000de;
      border-radius: 381px;
      width: 242px;
      margin: 0 auto;
@@ -1029,11 +1034,11 @@ ul.social_icont li a {
      padding: 5px;
      width: 20px;
      height: 20px;
-     border: #183971 solid 4px;
+     border: #000000 solid 4px;
 }
 
 .team_Carousel .carousel-indicators li {
-     background-color: #f2db18;
+     background-color: #ca6c00;
      width: 15px;
      height: 15px;
      border-radius: 20px;
@@ -1078,7 +1083,7 @@ ul.social_icont li a {
      line-height: 28px;
      padding-top: 27px;
      display: inline-block;
-     color: #f2db18;
+     color: #ca6c00;
      text-transform: uppercase;
      margin-left: 20px;
      float: left;
@@ -1090,7 +1095,7 @@ ul.social_icont li a {
      line-height: 28px;
      color: #383737;
      text-align: left;
-     border: #f2db18 solid 1px;
+     border: #ca6c00 solid 1px;
      display: inline-block;
      margin-bottom: 30px;
 }
@@ -1105,13 +1110,13 @@ ul.social_icont li a {
 }
 
 .testimonial_Carousel .carousel-indicators li {
-     background-color: #f2db18;
+     background-color: #ca6c00;
      width: 15px;
      height: 15px;
 }
 
 .testimonial_Carousel .carousel-indicators .active {
-     background-color: #4231bd;
+     background-color: #000000;
 }
 
 #testimo .carousel-control-next,
@@ -1146,7 +1151,7 @@ ul.social_icont li a {
      color: #363636;
      font-size: 18px;
      font-weight: normal;
-     border-bottom: #003471 solid 1px !important;
+     border-bottom: #000000 solid 1px !important;
      border: inherit;
 }
 
@@ -1159,14 +1164,14 @@ ul.social_icont li a {
      font-weight: normal;
      padding-top: 10px;
      height: 150px;
-     border-bottom: #003471 solid 1px !important;
+     border-bottom: #000000 solid 1px !important;
      border: inherit;
 }
 
 .contact_form .send_btn {
      font-size: 20px;
      transition: ease-in all 0.5s;
-     background-color: #f2db18;
+     background-color: #ca6c00;
      text-transform: uppercase;
      color: #fffefe;
      padding: 15px 0px;
@@ -1180,7 +1185,7 @@ ul.social_icont li a {
 }
 
 .contact_form .send_btn:hover {
-     background-color: #092352;
+     background-color: #000000;
      transition: ease-in all 0.5s;
      color: #fff;
 }
